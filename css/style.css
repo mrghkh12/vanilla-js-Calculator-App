@@ -32,3 +32,19 @@
     cursor: pointer;
     margin: 10px;
 }
+
+.container .calculatorBox form .displayBox{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+.container .calculatorBox form .displayBox input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+    padding: 10px;
+    cursor: default;
+    background: #a3a2a24f;
+    border: 1px solid #c0c0c086;
+}
