@@ -32,6 +32,10 @@
     cursor: pointer;
     margin: 10px;
 }
+.container .calculatorBox form input.operator{
+    color: #33ffd8;
+}
+
 .container .calculatorBox form input.equalBtn{
     width: 145px;
 }
