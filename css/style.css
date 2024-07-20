@@ -40,6 +40,7 @@
     display: flex;
     justify-content: flex-end;
     margin: 20px 0;
+    position: relative;
 }
 .container .calculatorBox form .displayBox input{
     text-align: right;
@@ -50,4 +51,12 @@
     cursor: default;
     background: #a3a2a24f;
     border: 1px solid #c0c0c086;
+}
+.container .calculatorBox form .displayBox .error{
+    position: absolute;
+    bottom: -15px;
+    text-align: center;
+    width: 100%;
+    color: #e40101;
+    display: none;
 }
