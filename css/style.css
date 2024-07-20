@@ -1,78 +1,79 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
 }
 
-.container{
-    width: 100%;
-    height: 100vh;
-    background: #e3f9ff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container {
+  width: 100%;
+  height: 100vh;
+  background: #e3f9ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.container .calculatorBox{
-    background: #3a4452;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-.container .calculatorBox form input{
-    border: 0;
-    outline: 0;
-    width: 60px;
-    height: 60px;
-    border-radius: 10px;
-    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
-    background: transparent;
-    font-size: 20px;
-    color: #fff;
-    cursor: pointer;
-    margin: 10px;
-}
-.container .calculatorBox form input.operator{
-    color: #33ffd8;
+.container .calculatorBox {
+  background: #3a4452;
+  padding: 20px;
+  border-radius: 10px;
 }
 
-.container .calculatorBox form input.equalBtn{
-    width: 145px;
+.container .calculatorBox form input {
+  border: 0;
+  outline: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.2);
+  background: transparent;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px;
+}
+.container .calculatorBox form input.operator {
+  color: #33ffd8;
 }
 
-.container .calculatorBox form .displayBox{
-    display: flex;
-    justify-content: flex-end;
-    margin: 20px 0;
-    position: relative;
+.container .calculatorBox form input.equalBtn {
+  width: 145px;
 }
-.container .calculatorBox form .displayBox input{
-    text-align: right;
-    flex: 1;
-    font-size: 45px;
-    box-shadow: none;
-    padding: 10px;
-    cursor: default;
-    background: #a3a2a24f;
-    border: 1px solid #c0c0c086;
+
+.container .calculatorBox form .displayBox {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0;
+  position: relative;
 }
-.container .calculatorBox form .displayBox .error{
-    position: absolute;
-    bottom: -15px;
-    text-align: center;
-    width: 100%;
-    color: #e40101;
-    display: none;
+.container .calculatorBox form .displayBox input {
+  text-align: right;
+  flex: 1;
+  font-size: 45px;
+  box-shadow: none;
+  padding: 10px;
+  cursor: default;
+  background: #a3a2a24f;
+  border: 1px solid #c0c0c086;
+}
+.container .calculatorBox form .displayBox .error {
+  position: absolute;
+  bottom: -15px;
+  text-align: center;
+  width: 100%;
+  color: #e40101;
+  display: none;
 }
 
 @media screen and (max-width: 400px) {
-    .container .calculatorBox .rowBtns{
-        display: flex;
-        justify-content: center;
-    }
-    .container .calculatorBox{
-        margin: 0 10px;
-        padding: 5px;
-        width: 100%;
-    }
+  .container .calculatorBox .rowBtns {
+    display: flex;
+    justify-content: center;
+  }
+  .container .calculatorBox {
+    margin: 0 10px;
+    padding: 5px;
+    width: 100%;
+  }
 }
